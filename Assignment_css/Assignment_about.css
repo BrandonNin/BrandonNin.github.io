@@ -1,0 +1,329 @@
+body {
+    background-color: rgb(35, 4, 51);
+    margin: 0px;
+    font-family: 'Krona One', sans-serif;
+}
+
+#header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu div {
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+}
+
+#menu a {
+    color: white;
+    padding: 10px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#menu div:hover {
+    padding: 10px;
+    background-color: rgb(255, 163, 253);
+    color: rgb(0, 0, 0);
+}
+
+#about_me h1 {
+    position: relative;
+    color: gray;
+    font-size: 120px;
+    text-align: center;
+    opacity: 40%;
+}
+
+#about_me h4 {
+    position: absolute;
+    left: 35%;
+    top: 18%;
+    font-size: 50px;
+    color: white;
+    padding: 1px;
+    border-bottom: 2px solid rgb(255, 163, 253);
+}
+
+#brd {
+    position: relative;
+    left: 10%;
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    max-width: fit-content;
+}
+
+#brd h2 {
+    font-size: 80px;
+}
+
+#profile_brd {
+    background-image: url(A_css_img/BRD-removebg-preview.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* #brd_img img {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    width: 400px;
+} */
+
+#discribe {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 200px;
+}
+
+#discribe img {
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+#discribe p {
+    color: white;
+    font-size: 20px;
+}
+
+#box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box h3 {
+    font-size: 40px;
+}
+
+#box>div {
+    padding: 50px;
+    border: 4px solid rgb(255, 163, 253);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+}
+
+.main_edu {
+    color: white;
+}
+
+#top {
+    margin-top: 60px;
+    padding: 8px;
+    background-color: rgb(255, 163, 253);
+    text-align: left;
+    max-width: 130px;
+}
+
+.edu div {
+    display: flex;
+    align-items: center;
+}
+
+.edu div {
+    flex: 1;
+    justify-content: center;
+}
+
+.edu h3 {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu img {
+    align-items: center;
+}
+
+.edu .year {
+    flex: 0.5;
+}
+
+.edu .logo {
+    flex: 1;
+}
+
+.edu .text {
+    display: block;
+    flex: 2;
+}
+
+.edu h2 {
+    font-size: 30px;
+    justify-content: center;
+}
+
+.edu p {
+    font-size: 24px;
+    justify-content: center;
+}
+
+@media (max-width: 960px) {
+
+    #about_me h1 {
+        position: relative;
+        color: gray;
+        font-size: 80px;
+        text-align: center;
+        opacity: 40%;
+    }
+
+    #about_me h4 {
+        position: absolute;
+        left: 35%;
+        top: 20%;
+        font-size: 30px;
+        color: white;
+        padding: 1px;
+        border-bottom: 2px solid rgb(255, 163, 253);
+    }
+
+    #box>div {
+        padding: 20 px;
+        border: 4px solid rgb(255, 163, 253);
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        width: 200px;
+    }
+
+    #brd {
+        position: relative;
+        color: white;
+        margin-top: 100px;
+        width: fit-content;
+    }
+
+    #brd h2 {
+        font-size: 40px;
+    }
+
+    #brd_img img {
+        width: 300px;
+        top: 30%;
+    }
+}
+
+@media (max-width: 420px) {
+
+    #about_me h1 {
+        position: relative;
+        color: gray;
+        font-size: 50px;
+        text-align: center;
+        opacity: 40%;
+    }
+
+    #about_me h4 {
+        position: absolute;
+        left: 23%;
+        top: 12%;
+        font-size: 24px;
+        color: white;
+        padding: 1px;
+        text-decoration-line: underline rgb(255, 163, 253);
+    }
+
+    #profile_brd {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #brd {
+        color: white;
+        margin-top: 100px;
+        width: fit-content;
+    }
+
+    #brd h2 {
+        font-size: 30px;
+    }
+
+    #brd p {
+        font-size: 10px;
+    }
+
+    #brd_img img {
+        width: 250px;
+        left: 40%;
+        top: 16%;
+    }
+
+    #discribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 50px;
+        margin-top: 200px;
+    }
+
+    #discribe img {
+        margin-right: 40px;
+        margin-top: 5px;
+    }
+
+    #discribe p {
+        color: white;
+        font-size: 20px;
+    }
+
+    #box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #box h3 {
+        font-size: 40px;
+    }
+
+    #box>div {
+        padding: 50px;
+        border: 4px solid rgb(255, 163, 253);
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .main_edu {
+        color: white;
+    }
+
+    #top {
+        margin-top: 60px;
+        padding: 8px;
+        background-color: rgb(255, 163, 253);
+        text-align: left;
+        max-width: 130px;
+    }
+
+    .edu div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .edu h3 {
+        margin-top: 100px;
+        font-size: 50px;
+    }
+}

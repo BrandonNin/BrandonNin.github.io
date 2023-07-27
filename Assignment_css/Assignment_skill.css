@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(82, 5, 123);
+    margin: 0px;
+    font-family: 'Krona One', sans-serif;
+}
+
+#header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu div {
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+}
+
+#menu a {
+    color: white;
+    padding: 10px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#menu div:hover {
+    padding: 10px;
+    background-color: rgb(255, 163, 253);
+    color: rgb(0, 0, 0);
+}
+
+#my_skill {
+    font-size: calc(1.95rem + 8.4vw) !important;
+}
+
+#my_skill h1 {
+    position: relative;
+    color: gray;
+    font-size: 120px;
+    text-align: center;
+    opacity: 40%;
+}
+
+#my_skill h4 {
+    position: absolute;
+    left: 37%;
+    top: 18%;
+    font-size: 50px;
+    color: white;
+    padding: 1px;
+    border-bottom: 2px solid rgb(255, 163, 253);
+}
+
+#security_header {
+    margin-left: 50px;
+}
+
+#security_header h2 {
+    color: rgb(255, 163, 253);
+    font-size: 50px;
+}
+
+#security_header p {
+    color: white;
+    font-size: 30px;
+}
+
+#security_percentage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#security_percentage img {
+    width: 110%;
+}
+
+#programming_header {
+    margin-right: 50px;
+}
+
+#programming_header h2 {
+    margin-top: 150px;
+    color: rgb(255, 163, 253);
+    font-size: 50px;
+    text-align: right;
+}
+
+#programming_header p {
+    margin-bottom: 150px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+#programming_percentage>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    color: white;
+}
+
+.logo_img img {
+    width: 60px;
+}
+
+.logo_img {
+    flex: 0.5;
+}
+
+.name {
+    flex: 1;
+}
+
+.name_percentage {
+    flex: 2;
+    text-align: center;
+}
+
+.img_percentage {
+    display: block;
+}
+
+.img_percentage img {
+    width: 70%;
+    max-height: 30px;
+}
+
+@media (max-width: 960px) {
+    #my_skill h1 {
+        display: flex;
+        position: relative;
+        color: gray;
+        font-size: 80px;
+        text-align: center;
+        opacity: 40%;
+        justify-content: center;
+    }
+
+    #my_skill h4 {
+        display: flex;
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        font-size: 40px;
+        color: white;
+        padding: 1px;
+        border-bottom: 2px solid rgb(255, 163, 253);
+        justify-content: center;
+    }
+
+}

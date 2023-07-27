@@ -73,6 +73,7 @@ body {
     background-image: url(A_css_img/BRD-removebg-preview.png);
     background-repeat: no-repeat;
     position: relative;
+    background-position: right top;
 }
 
 /* #brd_img img {

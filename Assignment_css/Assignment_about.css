@@ -223,7 +223,6 @@ body {
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 90%;
-        min-height: 450px;
         display: flex;
         align-items: flex-end;
         flex-direction: row;

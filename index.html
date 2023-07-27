@@ -25,10 +25,13 @@
                 <div><a href="Assignment_work.html">Work</a></div>
                 <div><a href="Assignment_contact.html">Contact</a></div>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Assignment_css/A_css_img/menubar.png" alt="menu">
+            </a>
         </div>
         <div class="main">
             <div id="earth">
-                <img src="Assignment_css/A_css_img/protection.png" alt="earth">
+                <img src="Assignment_css/A_css_img/protection.png" alt="earth" width="30px">
             </div>
             <div id="name">
                 <div>
@@ -38,6 +41,21 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <p>Copyright ©2023 All rights reserved
+                <br>This template is made by BRD
+            </p>
+        </footer>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("menu");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
     </div>
 </body>
 

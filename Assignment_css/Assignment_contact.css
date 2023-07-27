@@ -150,7 +150,7 @@ footer {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
 
     #Contact_head h1 {
         position: relative;

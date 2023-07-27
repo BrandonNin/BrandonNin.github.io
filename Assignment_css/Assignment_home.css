@@ -37,12 +37,17 @@ body {
     color: rgb(0, 0, 0);
 }
 
+#header a.icon img {
+    overflow: hidden;
+    display: none;
+}
+
 .main {
     background-image: url(A_css_img/hack_code.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 60%;
+    opacity: 40%;
     position: relative;
 }
 
@@ -66,10 +71,19 @@ body {
     left: 10%;
     font-size: 45px;
     color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 #name h1 {
     color: rgb(255, 163, 253);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
 }
 
 
@@ -110,13 +124,41 @@ body {
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 460px) {
+
+    #header {
+        overflow: hidden;
+        background-color: black;
+        position: relative;
+    }
+
+    #header #menu {
+        display: none;
+    }
+
+    #header a.icon img {
+        display: flex;
+        width: 30px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 20px;
+    }
+
+    #menu div {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
     #name {
         font-family: 'Krona One', sans-serif;
         position: absolute;
         top: 5%;
         left: 10%;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
     }
 

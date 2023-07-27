@@ -75,7 +75,7 @@ body {
     background-image: url(A_css_img/BRD-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: 90% 0%;
-    background-size: 50%;
+    background-size: 40%;
     min-height: 600px;
     display: flex;
     align-items: center;
@@ -171,6 +171,14 @@ body {
     justify-content: center;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
 @media (max-width: 960px) {
 
     #box>div {
@@ -189,7 +197,7 @@ body {
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
 
     #header {
         background-color: black;

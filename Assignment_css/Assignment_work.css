@@ -112,6 +112,14 @@ body {
     margin: 0px 0px 50px 80px;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
 @media (max-width: 960px) {
     #project_workdone h1 {
         font-size: 50px;

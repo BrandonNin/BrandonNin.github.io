@@ -25,35 +25,34 @@
                 <div><a href="Assignment_work.html">Work</a></div>
                 <div><a href="Assignment_contact.html">Contact</a></div>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Assignment_css/A_css_img/menubar.png" alt="menu">
+            </a>
         </div>
         <div id="Contact_head">
             <h1>CONTACT</h1>
             <h4>Get In Touch</h4>
         </div>
         <div id="message_box">
-            <div>
-                <p>NAME</p>
-            </div>
-            <div>
-                <p>EMAIL</p>
-            </div>
-            <div id="box_mgs">
-                <p>MESSAGE</p>
-            </div>
-            <button type="button">Send Message</button>
-
+            <form action="message">
+                <input type="text" id="fname" placeholder="Name">
+                <input type="text" id="email" placeholder="Email">
+                <textarea id="text" row="9" placeholder="Message"></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
         <div id="contact_details_main">
             <h2>Contact Details</h2>
             <div>
                 <div id="phone_number">
-                    <div><img src="Assignment_css/A_css_img/phone-message.png" alt="phone logo" width="80px"></div>
+                    <div class="contact_img"><img src="Assignment_css/A_css_img/phone-message.png" alt="phone logo">
+                    </div>
                     <div>
                         <a href="tel:011-1655-2945">01116552945</a>
                     </div>
                 </div>
                 <div id="email_address">
-                    <div><img src="Assignment_css/A_css_img/send-mail.png" alt="email logo" width="80px"></div>
+                    <div class="contact_img"><img src="Assignment_css/A_css_img/send-mail.png" alt="email logo"></div>
                     <div>
                         <a href="mailto:WAIhong4399@gmail.com">WAIhong4399@gmail.com</a>
                     </div>

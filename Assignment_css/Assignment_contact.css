@@ -42,6 +42,7 @@ body {
 #Contact_head h1 {
     position: relative;
     color: gray;
+    width: 100%;
     font-size: 120px;
     text-align: center;
     opacity: 40%;
@@ -49,29 +50,38 @@ body {
 
 #Contact_head h4 {
     position: absolute;
-    left: 37%;
-    top: 18%;
+    top: 20%;
+    width: 100%;
+    text-align: center;
     font-size: 50px;
     color: white;
     padding: 1px;
-    border-bottom: 2px solid rgb(255, 163, 253);
+    text-decoration: underline rgb(255, 163, 253);
 }
 
-#message_box>div {
+#message_box {
+    text-align: center;
+}
+
+#message_box div {
     background-color: white;
-    padding: 50px;
-    margin: 50px;
-    border-radius: 280px;
+    margin: 3% 15%;
 }
 
-#name_email_box {
-    display: flex;
-    justify-content: space-around;
+#message_box p {
+    padding: 3%;
+}
+
+
+#box_mgs {
+    height: 150px;
 }
 
 button {
-    margin-left: 100px;
-    width: 150px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 1%;
 }
 
 #contact_details_main h2 {
